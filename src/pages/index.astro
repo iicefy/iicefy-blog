@@ -6,10 +6,12 @@ import PageLayout from "@/components/layouts/PageLayout.astro";
 import slateConfig from "~@/slate.config";
 import type { PostFrontmatter } from "./blog/config";
 
-const postCollection = await getCollection("post", (data: PostFrontmatter) => {
-  console.log(data)
-  return import.meta.env.DEV || data.draft !== true;
-});
+const postCollection = await getCollection(
+  "post",
+  (data: { data: PostFrontmatter }) => {
+    return import.meta.env.DEV || data.data.draft !== true;
+  }
+);
 
 const tagCounts = postCollection.reduce(
   (res: Record<string, number>, post: { data: PostFrontmatter }) => {
