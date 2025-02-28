@@ -11,3 +11,4 @@ You can visit the live site at [iicefy.me](https://iicefy.me).
 - **[Astro](https://astro.build/)**: A modern static site generator for fast, optimized websites.
 - **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
 - **[Vercel](https://vercel.com/)**: A platform for deploying and hosting static sites and serverless functions.
+
