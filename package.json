@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@astrojs/mdx": "^4.1.0",
     "@astrojs/react": "^4.2.1",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
@@ -28,5 +29,8 @@
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.0.9",
     "vite-plugin-svgr": "^4.3.0"
+  },
+  "devDependencies": {
+    "sanitize-html": "^2.14.0"
   }
 }
