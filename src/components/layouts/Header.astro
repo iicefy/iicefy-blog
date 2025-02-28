@@ -1,0 +1,17 @@
+---
+import { Image } from "astro:assets";
+import slateConfig from "~@/slate.config";
+import avatarImage from "./../../../public/avatar.png";
+---
+
+<header>
+  <div class="mb-9 h- w-32 whitespace-nowrap text-[0px]">
+    <Image
+      class="block h-full w-full rounded-xl border-2 border-white bg-slate2 shadow-xs outline-1 outline-slate3"
+      src={avatarImage}
+      alt={slateConfig.title}
+      draggable="false"
+    />
+    <span>{slateConfig.title}</span>
+  </div>
+</header>
