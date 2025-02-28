@@ -4,11 +4,11 @@ import { type CollectionEntry, getCollection } from "astro:content";
 // import i18next from "@/i18n";
 import PageLayout from "@/components/layouts/PageLayout.astro";
 import ArticleJsonLd from "@/components/json-ld/article.astro";
-// import Button from "@/components/button";
+import Button from "@/components/button";
 import AffixTitle from "@/components/affix-title";
 // import Toc from "@/components/toc";
 // import CodeGroupEvent from "@/components/code-group-event";
-import slateConfig from "~@/slate.config";
+// import slateConfig from "~@/slate.config";
 import { getFullTitle } from "@/helper/utils";
 import type { PostFrontmatter } from "./config";
 // import "remark-block-containers/css";
@@ -60,7 +60,7 @@ const lastModifiedDate = dayjs(
   <AffixTitle title={post.data.title} offsetTop={100} client:idle />
 
   <div class="mb-16" slot="header">
-    <!-- <Button id="back">←</Button> -->
+    <Button id="back">←</Button>
   </div>
 
   <div class="blog-content">
