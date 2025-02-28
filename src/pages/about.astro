@@ -1,0 +1,22 @@
+---
+import Button from "@/components/button";
+import PageLayout from "@/components/layouts/PageLayout.astro";
+import { Content } from "@/content/about/about.md";
+
+import "@/assets/style/about.css";
+---
+
+<PageLayout>
+  <div class="mb-16" slot="header">
+    <Button id="back">←</Button>
+  </div>
+  <div class="blog-content">
+    <Content />
+  </div>
+</PageLayout>
+<script>
+  const backBtn = document.getElementById("back");
+  backBtn?.addEventListener("click", () => {
+    window.location.href = "/";
+  });
+</script>
