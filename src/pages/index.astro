@@ -1,7 +1,5 @@
 ---
 import { getCollection } from "astro:content";
-// import i18next from "@/i18n";
-// import Search from "@/components/search";
 import PageLayout from "@/components/layouts/PageLayout.astro";
 import slateConfig from "~@/slate.config";
 import type { PostFrontmatter } from "./blog/config";
@@ -40,7 +38,7 @@ const tags = Object.keys(tagCounts).map((tag) => ({
 
 const posts = [...postCollection]
   .sort((a, b) => b.data.pubDate!.getTime() - a.data.pubDate!.getTime())
-  .map((post) => ({
+  .map((post: any) => ({
     id: post.id,
     slug: post.slug,
     url: `/blog/${post.slug}`,
@@ -55,11 +53,6 @@ const posts = [...postCollection]
     </h3>
 
     <p class="text-xl text-slate10">{slateConfig.description}</p>
-
-    <!-- <Search
-      client:only="react"
-      className="absolute right-0 top-1/2 -translate-y-1/2"
-    /> -->
   </section>
 
   <section class="mb-16">
