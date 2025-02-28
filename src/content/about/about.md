@@ -1,16 +1,12 @@
----
-title: About Me
----
-
 # About Me
 
 Hello! 👋 I'm **Ice, Chawit Rittiya**, a **Frontend Dev** passionate about **Web Development**. I enjoy building and creating things that solve real-world problems, and I'm always eager to learn and grow in my field.
 
-&nbsp;
+<!-- &nbsp;
 
 ## 🚀 Experiences
 
-### **Frontend Developer** at **MTL**   
+### **Frontend Developer** at **MTL**
 
 2024 - Present
 
@@ -24,19 +20,19 @@ Hello! 👋 I'm **Ice, Chawit Rittiya**, a **Frontend Dev** passionate about **W
 
 - **[Key Responsibility/Achievement 1]**
 - **[Key Responsibility/Achievement 2]**
-- **[Key Responsibility/Achievement 3]**
+- **[Key Responsibility/Achievement 3]** -->
 
-&nbsp;
+<!-- &nbsp;
 
-## 💡 Skills
+## 💡 Skills -->
 
 <!-- ### Technical Skills -->
 
-- **Programming Languages**: [e.g., JavaScript, Python, Java, etc.]
+<!-- - **Programming Languages**: [e.g., JavaScript, Python, Java, etc.]
 - **Frameworks & Libraries**: [e.g., React, Node.js, Tailwind CSS, etc.]
 - **Tools & Platforms**: [e.g., Git, Docker, AWS, etc.]
 - **Databases**: [e.g., MySQL, MongoDB, PostgreSQL, etc.]
-- **Other**: [e.g., UI/UX Design, Agile Methodology, etc.]
+- **Other**: [e.g., UI/UX Design, Agile Methodology, etc.] -->
 
 <!-- ### Soft Skills
 
@@ -63,9 +59,9 @@ Hello! 👋 I'm **Ice, Chawit Rittiya**, a **Frontend Dev** passionate about **W
 **Duration**: [Start Date] - [End Date]
 **Description**: [Brief description of the certification or training] -->
 
-&nbsp;
+<!-- &nbsp;
 
-## 📫 Contact Me
+## 📫 My Contact -->
 
 Feel free to reach out to me for collaborations, opportunities, or just to say hi! 😊
 
