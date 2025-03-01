@@ -2,23 +2,19 @@
 
 Hello! 👋 I'm **Ice, Chawit Rittiya**, a **Frontend Dev** passionate about **Web Development**. I enjoy building and creating things that solve real-world problems, and I'm always eager to learn and grow in my field.
 
-<!-- &nbsp;
+&nbsp;
 
 ## 🚀 Experiences
 
-### **Frontend Developer** at **MTL**
+### Frontend Developer at **MTL** (2024 - Present)
 
-2024 - Present
+### Fullstack Developer at **Vonder** (2021 - 2024)
 
-- **[Key Responsibility/Achievement 1]**
-- **[Key Responsibility/Achievement 2]**
-- **[Key Responsibility/Achievement 3]**
+&nbsp;
 
-### **Fullstack Developer** at **Vonder**
+<!-- **Duration**: -->
 
-**Duration**: 2021 - 2024
-
-- **[Key Responsibility/Achievement 1]**
+<!-- - **[Key Responsibility/Achievement 1]**
 - **[Key Responsibility/Achievement 2]**
 - **[Key Responsibility/Achievement 3]** -->
 
@@ -71,3 +67,5 @@ Feel free to reach out to me for collaborations, opportunities, or just to say h
 - **My website**: [iicefy.me](https://iicefy.me)
 
 Thank you for visiting my profile! Looking forward to connecting with you. 🚀
+
+---
