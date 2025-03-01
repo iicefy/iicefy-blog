@@ -4,9 +4,9 @@
 
 import { defineConfig } from "@/helper/config-helper";
 
-export default defineConfig({
+const slateCongig = defineConfig({
   lang: "en-US",
-  site: "",
+  site: "iicefy.me",
   title: "iicefy's Blog",
   description: "",
   lastModified: true,
@@ -21,3 +21,5 @@ export default defineConfig({
     },
   ],
 });
+
+export default slateCongig;
