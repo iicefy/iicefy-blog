@@ -1,15 +1,17 @@
 ---
-title: Why Astro?
+title: Test eng
 description: Astro is the web framework for building content-driven websites like blogs, marketing, and e-commerce. Astro is best-known for pioneering a new frontend architecture to reduce JavaScript overhead and complexity compared to other frameworks. If you need a website that loads fast and has great SEO, then Astro is for you.
 tags:
   - Dev
   - Astro
   - Web
 pubDate: 2024-12-03
-draft: true
+draft: false
 ---
 
 Astro is the web framework for building content-driven websites like blogs, marketing, and e-commerce. Astro is best-known for pioneering a new [frontend architecture](https://docs.astro.build/en/concepts/islands/) to reduce JavaScript overhead and complexity compared to other frameworks. If you need a website that loads fast and has great SEO, then Astro is for you.
+
+---
 
 ## Features
 
@@ -23,6 +25,8 @@ Some highlights include:
 - [Zero JS, by default](https://docs.astro.build/en/basics/astro-components/): Less client-side JavaScript to slow your site down.
 - [Content collections](https://docs.astro.build/en/guides/content-collections/): Organize, validate, and provide TypeScript type-safety for your Markdown content.
 - [Customizable](https://docs.astro.build/en/guides/integrations-guide/): Tailwind, MDX, and hundreds of integrations to choose from.
+
+---
 
 ## Design Principles
 
