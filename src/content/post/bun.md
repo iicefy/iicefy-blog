@@ -68,7 +68,7 @@ curl -fsSL https://bun.sh/install
 รันไฟล์ JavaScript หรือ TypeScript ของคุณด้วยคำสั่ง:
 
 ```bash
-    curl -fsSL https://bun.sh/install
+curl -fsSL https://bun.sh/install
 ```
 
 ## สรุป

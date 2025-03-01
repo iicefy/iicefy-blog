@@ -11,13 +11,13 @@ import astroExpressiveCode from "astro-expressive-code";
 import mdx from "@astrojs/mdx";
 
 function computedIntegrations() {
-  const result = [astroExpressiveCode(), mdx(), react(), sitemap("iicefy.me")];
+  const result = [astroExpressiveCode(), mdx(), react(), sitemap()];
 
   return result;
 }
 
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://iicefy.me",
   integrations: computedIntegrations(),
   vite: {
     plugins: [svgr(), tailwindcss()],
