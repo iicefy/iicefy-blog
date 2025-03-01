@@ -2,24 +2,23 @@
 import stateConfig from "~@/slate.config";
 import type { ThemeOptions } from "@/typings/config";
 import ThemeSelect from "@/components/theme-select";
-// import SocialLinks from "@/components/social-links";
 ---
 
 <footer class="mt-auto">
-  <!-- {!!slateConfig.socialLinks && <SocialLinks client:visible />} -->
   <div class="mt-4 flex items-center justify-between">
-    <div class="text-slate8 text-sm">
+    <div class="text-slate8 text-sm">© 2025 Chawit Rittiya.</div>
+    <div class="flex items-center gap-4">
       <a
-        class="inline-block cursor-pointer py-0.5 transition-colors hover:text-slate12"
+        class="inline-block cursor-pointer py-0.5 transition-colors hover:text-slate12 text-slate8 text-sm"
         href={`/about`}
       >
         About me
       </a>
+      {
+        (stateConfig.theme as ThemeOptions).enableUserChange && (
+          <ThemeSelect client:visible />
+        )
+      }
     </div>
-    {
-      (stateConfig.theme as ThemeOptions).enableUserChange && (
-        <ThemeSelect client:visible />
-      )
-    }
   </div>
 </footer>
