@@ -5,7 +5,7 @@ tags:
   - Astro
   - React
 pubDate: 2025-03-01
-draft: false
+draft: true
 ---
 
 Hey everyone! I’m excited to share how I set up this blog.  

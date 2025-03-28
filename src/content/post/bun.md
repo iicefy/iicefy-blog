@@ -4,7 +4,7 @@ description: "ทำความรู้จักกับ Bun 1.0 เครื
 tags:
   - Dev
 pubDate: 2025-03-01
-draft: false
+draft: true
 ---
 
 <!-- ![Bun Logo](https://bun.sh/logo.png) -->
